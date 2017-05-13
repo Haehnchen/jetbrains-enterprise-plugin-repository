@@ -1,0 +1,4 @@
+espend_jet_brains_plugin_repository:
+    resource: "@espendJetBrainsPluginRepositoryBundle/Controller/"
+    type:     annotation
+    prefix:   /

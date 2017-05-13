@@ -1,0 +1,64 @@
+<idea-plugin downloads="2207110" size="1701307" date="1484673059000" url="http://plugins.jetbrains.com/plugin/164">
+    <name>IdeaVim</name>
+    <id>IdeaVIM</id>
+    <description>
+        <p>Vim emulation plug-in for IDEs based on the IntelliJ platform.</p>
+        <p>IdeaVim supports many Vim features including normal/insert/visual modes, motion keys, deletion/changing,
+            marks, registers, some Ex commands, Vim regexps, configuration via ~/.ideavimrc, macros, window commands,
+            etc.
+        </p>
+        <p>See also:</p>
+        <ul>
+            <li><a href="https://github.com/JetBrains/ideavim" rel="nofollow">GitHub repository</a>: documentation and
+                contributing
+            </li>
+            <li><a href="http://youtrack.jetbrains.com/issues/VIM" rel="nofollow">Issue tracker</a>: feature requests
+                and bug reports
+            </li>
+        </ul>
+    </description>
+    <version>0.48.4</version>
+    <vendor email="" url="">JetBrains</vendor>
+    <download-url>../../plugin/download?updateId=31842</download-url>
+    <idea-version min="n/a" max="n/a" since-build="171.0"/>
+    <change-notes>
+        <p>To be released:</p>
+        <ul>
+            <li>Enabled zero-latency typing for Vim emulation</li>
+        </ul>
+        <p>0.48:</p>
+        <ul>
+            <li>Various bug fixes</li>
+        </ul>
+        <p>0.47:</p>
+        <ul>
+            <li>Various bug fixes</li>
+        </ul>
+        <p>0.46:</p>
+        <ul>
+            <li>Support for <code>incsearch</code> option for showing search results while typing
+            </li>
+            <li>Support for <code>it</code> and <code>at</code> tag block selection
+            </li>
+            <li>Support for vim-surround commands <code>ys</code>, <code>cs</code>, <code>ds</code>, <code>S</code>,
+                enable it with <code>set surround</code> in your ~/.ideavimrc
+            </li>
+            <li>Support for <code>={motion}</code> formatting command
+            </li>
+            <li>Various bug fixes</li>
+        </ul>
+        <p>0.44:</p>
+        <ul>
+            <li>Fixed typing keys in completion menus and typing with the plugin disabled</li>
+        </ul>
+        <p>0.43:</p>
+        <ul>
+            <li>Fixed running the plugin with Java 6</li>
+        </ul>
+        <p>See also the complete <a href="https://github.com/JetBrains/ideavim/blob/master/CHANGES.md" rel="nofollow">
+            changelog</a>.
+        </p>
+    </change-notes>
+    <depends>com.intellij.modules.lang</depends>
+    <rating>4.5</rating>
+</idea-plugin>
